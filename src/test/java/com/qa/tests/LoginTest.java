@@ -27,16 +27,16 @@ public class LoginTest {
 	public void setup() {
 		
 		try {
-  		  	System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver");
-		    driver = new FirefoxDriver();
+  		  	//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"/Drivers/geckodriver");
+		   // driver = new FirefoxDriver();
   		 
-  		  	/*
+  		  	
   		  	FirefoxOptions options = new FirefoxOptions();
   		  	options.setHeadless(true);
           
           //pass the options parameter in the Firefox driver declaration
   		  	driver = new FirefoxDriver(options);
-		    */		
+		    		
 		   
 		    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		     } 
