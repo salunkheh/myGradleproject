@@ -43,8 +43,7 @@ jobs:
     # When 'true', existing entries will be read from the cache but no entries will be written.
     cache-read-only: # optional
     # Paths within Gradle User Home to cache.
-    gradle-home-cache-includes: # optional, default is caches
-notifications
+    gradle-home-cache-includes: # optional, default is caches notifications
 
     # Paths within Gradle User Home to exclude from cache.
     gradle-home-cache-excludes: # optional
