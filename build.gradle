@@ -33,4 +33,10 @@ dependencies {
 		
 
 }
+
+test {
+    useTestNG(){
+     useDefaultListeners = true
+     }
+}
 	
