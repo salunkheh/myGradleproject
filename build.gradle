@@ -38,5 +38,10 @@ test {
     useTestNG(){
      useDefaultListeners = true
      }
+     
+testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+    
 }
 	
