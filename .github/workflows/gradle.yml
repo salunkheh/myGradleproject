@@ -29,6 +29,8 @@ jobs:
     - name: Run Linux command
       run: |
         sudo chmod +x ./Drivers/geckodriver
+        which firefox
+        whereis firefox
         
     - uses: gradle/gradle-build-action@v2
       with:
