@@ -27,7 +27,7 @@ public class LoginTest {
 	public void setup() {
 		
 		try {
-  		  	System.setProperty("webdriver.gecko.driver","https://github.com/salunkheh/myGradleproject/tree/main/Drivers/geckodriver");
+  		  	System.setProperty("webdriver.gecko.driver","/opt/hostedtoolcache/firefox/latest-esr/x64/firefox");
 		   // driver = new FirefoxDriver();
   		 
   		  	
