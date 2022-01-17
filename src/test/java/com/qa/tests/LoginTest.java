@@ -27,7 +27,7 @@ public class LoginTest {
 	public void setup() {
 		
 		try {
-  		  	System.setProperty("webdriver.gecko.driver","/opt/hostedtoolcache/firefox/latest-esr/x64/firefox-bin");
+  		  	System.setProperty("webdriver.gecko.driver","./Drivers/geckodriver");
 		   // driver = new FirefoxDriver();
   		 
   		  	
