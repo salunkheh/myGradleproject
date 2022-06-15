@@ -29,6 +29,11 @@ jobs:
       with:
           distribution: 'adopt'
           java-version: ${{ matrix.java }}
+          
+    - name: Setup Firefox
+      uses: browser-actions/setup-firefox@v0.0.0
+      with:
+        firefox-version: 101.0.1
     
     - name: Run Linux command
       run: |
