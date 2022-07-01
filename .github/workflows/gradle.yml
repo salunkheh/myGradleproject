@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        java: [ '8', '11', '13']
+        java: [ '8', '11']
     name: Java ${{ matrix.Java }} sample
 
     steps:
@@ -29,12 +29,7 @@ jobs:
       with:
           distribution: 'adopt'
           java-version: ${{ matrix.java }}
-          
-    - name: Setup Firefox
-      uses: browser-actions/setup-firefox@v0.0.0
-      with:
-        firefox-version: 101.0.1
-    
+
     - name: Run Linux command
       run: |
         sudo chmod +x ./Drivers/geckodriver
